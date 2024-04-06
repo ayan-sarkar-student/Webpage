@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 95%;
+    height: auto;
+    margin-left: 31px;
+}
+.logo{
+    color: #ff7200;
+    font-size: 41px;
+    font-family: cursive;
+    float: left;
+    padding-top: .7%;
+    cursor: pointer;
+}
+.menu{
+    width: 601px;
+    height: 71px;
+    float: left;
+}
+ul{
+    padding-top: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+ul li{
+    margin-left: 61px;
+    list-style: none;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: .3s ease;
+}
+ul li a:hover{
+    color: #ff7200;
+
+}
+.search-box{
+    float: right;
+    width: 241px;
+    background: #fff;
+    height: 31px;
+    padding: 9px;
+    margin-top: 1%;
+    margin-right: 3%;
+    border-radius: 15px;
+    
+
+}
+.search-text{
+    width: 191px;
+    padding: 6px;
+    border: none;
+    outline: none;
+    float: left;
+    color: #000;
+    font-size: 17px;
+    /* line-height: 31px; */
+    /* letter-spacing: 0.7px; */
+}
+.search-logo{
+    text-decoration: none;
+    background: #fff;
+    color:black;
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    width: 31px;
+    height: 31px;
+}
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-family: cursive;
+    font-size: 85px;
+    color: #fff;
+}
+.button{
+    position: absolute;
+    top:51% ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all .3s ease;
+}
+.btn{
+    color: #fff;
+    padding: 5px 21px ;
+    font-size: 17px;
+    text-decoration: none;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
